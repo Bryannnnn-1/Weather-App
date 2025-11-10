@@ -1,0 +1,97 @@
+:root {
+    --primary-color: #ffbc02e0 ;
+    --secondary-color: #e9ba00;
+    --text-color: #000000;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    background: radial-gradient(circle, #987c0d, #ffbf00);
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+    margin: 20px;
+}
+
+.bg-body-tertiary {
+    background: radial-gradient(circle, #b27836, #ffffff) !important;
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+}
+
+.card-img-top {
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    display: block;
+    border:1px solid #000000;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+}
+
+.form-label{
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--text-color);
+    margin: 20px;
+}
+
+.form-control{
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.form-control:focus {
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 5px var(--secondary-color);
+}
+
+.card {
+    background: #ffffffa3 !important;
+    backdrop-filter: blur(20px);
+    border: none;
+    border-radius: 30px;
+    color: var(--text-color);
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.weather {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    background: #ffbc02e0 !important;
+    backdrop-filter: blur(20px);
+}
